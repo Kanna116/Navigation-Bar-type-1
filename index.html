@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="nav"><a href="##" onclick="history.go(-1)"><i class='bx bx-arrow-back'></i><span>Back to
+                    Home</span></a>
+        </div>
+        <div class="project-details">
+            <h1>Navigation Bar</h1>
+            <p>A very useful interactive thing in UI is the menu. Here is way of making it.</p>
+            <div class="links">
+                <a href="https://github.com/Kanna116/Navigation-Bar-type-1" target="_blank"><i
+                        class='bx bxl-github'></i><span>code</span></i></a>
+                <a href="https://www.figma.com/file/psR6wlkW9YP4qJs4OHfFyB/navigation-bar?type=design&node-id=0%3A1&mode=design&t=CgWL9PQ1RshEeJi9-1"
+                    target="_blank"><i class='bx bxl-figma'><span>design</span></i></a>
+                <a href="https://www.figma.com/proto/psR6wlkW9YP4qJs4OHfFyB/navigation-bar?page-id=0%3A1&type=design&node-id=13-467&viewport=-142%2C-418%2C0.44&t=aG3VL9caO0rXYMt4-1&scaling=scale-down&starting-point-node-id=13%3A467&mode=design"
+                    target="_blank"><i class='bx bxl-figma'><span>prototype</span></i></a>
+            </div>
+        </div>
+
+        <div class="thanking">
+            <p>Thank you for your support<i class='bx bxs-heart'></i></p>
+        </div>
+        <div class="note">
+            <p>Excited then "click" the sandwich menu icon.</p>
+        </div>
+        <div id="nav-container">
+            <div id="nav-bar">
+                <div id="controller">
+                    <i class='bx bx-menu-alt-left menu-icon' onclick="openMenu()"></i>
+                    <i class='bx bx-x close-icon' onclick="closeMenu()"></i>
+
+                </div>
+                <div id="home">
+                    <div class="nav-link"><i class='bx bx-home-alt-2'></i><span class="nav-link-text">Home</span></div>
+                    <div class="nav-link"><i class='bx bxs-color'></i><span class="nav-link-text">About US</span></div>
+                    <div class="nav-link"><i class='bx bx-user'></i><span class="nav-link-text">Account</span></div>
+                </div>
+                <div id="order">
+                    <div class="nav-link"><i class='bx bxs-offer'></i><span class="nav-link-text">Offers</span></div>
+                    <div class="nav-link"><i class='bx bx-bookmark'></i><span class="nav-link-text">Wishlist</span>
+                    </div>
+                    <div class="nav-link"><i class='bx bx-history'></i><span class="nav-link-text">History</span></div>
+                    <div class="nav-link"><i class='bx bxs-cart-alt'></i><span class="nav-link-text">Cart</span></div>
+                </div>
+                <div id="service">
+                    <div class="nav-link"><i class='bx bxs-shield'></i><span class="nav-link-text">Privacy</span></div>
+                    <div class="nav-link"><i class='bx bx-support'></i><span class="nav-link-text">Support</span></div>
+                    <div class="nav-link"><i class='bx bx-log-out'></i><span class="nav-link-text">Log Out</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
